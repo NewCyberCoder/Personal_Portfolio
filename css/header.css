@@ -1,0 +1,80 @@
+/* General Header Styles */
+header {
+    background-color: #e0d3eb; 
+    padding: 20px 0;
+    position: relative;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'Fraunces', serif; 
+    font-weight: 120; 
+}
+
+/* Header Top Section */
+.header-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #DFD3EB; 
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.header-vector {
+    width: 50px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.portfolio-title {
+    font-size: 24px;
+    color: #333;
+    font-weight: 120; 
+    margin: 0;
+}
+
+/* Navigation Bar */
+.nav-container {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 90%; 
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 30px;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-family: 'Fraunces', serif; 
+    font-weight: 120; 
+}
+
+.nav-links a:hover {
+    color: #8FB99D; 
+}
+
+.search-bar input {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-family: 'Fraunces', serif; 
+    font-weight: 120; 
+}

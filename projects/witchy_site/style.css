@@ -1,0 +1,13 @@
+.footer-signature img {
+    position: absolute;
+    bottom: 10px;         /* Adjust here */
+    left: 10px;           /* Adjust here*/
+    width: 50px;          /* Size as needed */
+    height: auto;        
+}
+
+.footer-signature img:hover {
+    transform: rotate(10deg);
+    filter: drop-shadow(0 0 5px #fff);
+    transition: all 0.3s ease-in-out;
+}
